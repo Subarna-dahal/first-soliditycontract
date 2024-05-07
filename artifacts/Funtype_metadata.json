@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "pu",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"state.sol": "Funtype"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"state.sol": {
+			"keccak256": "0xe65bf54ec79d54806e29bfb61e3aa238428710d1ac7a582b612fcd6993bb6d13",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d6e827e739860d8e3fe46773bdd82d0dac4fda3ca4425d9284ab151dfd88a254",
+				"dweb:/ipfs/QmR9iXCPJyvbHCEm2U1vxFwSc4cckd7LeLdbLi3PjCHawN"
+			]
+		}
+	},
+	"version": 1
+}

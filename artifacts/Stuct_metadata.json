@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "cl",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "no",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "house",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "class",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "cl",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "no",
+						"type": "string"
+					}
+				],
+				"name": "change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"state.sol": "Stuct"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"state.sol": {
+			"keccak256": "0x15585e9674d9c5fcadfc9e6db63c6b052343459780e74ba07aa882eb1f8c5955",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1f166e68c76fdfd948340a9f0cc17234abd2739ae56c5981cc9edf7196a471ac",
+				"dweb:/ipfs/QmPBP5sR7meLxyRBd1j7EVVxURvAJQu4b1mJoLyGbJ6hW5"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"state.sol": "Demo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"state.sol": {
+			"keccak256": "0xf464b4ee1c29c2366a5d65c60ea54e2239673eaa1630fbd440fba80aa20e078b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://56f270b799a85e09710a0e1a8d4d1b99f64ed6d25fda378312f8540d47256888",
+				"dweb:/ipfs/QmWyLFSPeoWqnMpkp9pHefBvNhe13GxxHc1E8vYuirfGrS"
+			]
+		}
+	},
+	"version": 1
+}

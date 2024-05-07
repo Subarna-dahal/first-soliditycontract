@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "s1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"state.sol": "Dem0"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"state.sol": {
+			"keccak256": "0xb3c435bf49f98ebaed5d94a0ec28e9c00665521f5601f93ba5ea7aebfa28a301",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://859d311438fddd6505f7031a50269e466dea4768cf016cc9895cc7d63415caf6",
+				"dweb:/ipfs/QmdHKorHcnAhPoxym3AGAQnG2W33XvYpDBK3RG6iSzNQPY"
+			]
+		}
+	},
+	"version": 1
+}
